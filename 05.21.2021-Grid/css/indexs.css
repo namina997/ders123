@@ -1,0 +1,124 @@
+/*Header Start */
+#header{
+    background: rgb(248, 144, 162);
+    padding: 15px 0;
+}
+#header .logo{
+    margin-right: 60px;
+}
+#header .menu ul{
+    list-style: none;
+}
+#header .menu ul li{
+    padding: 15px;
+}
+#header .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+#header .header-right a {
+    background: #fff;
+    color: black;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+#appoint .appoint-left{
+    padding: 6.5em 30px;
+    background: #FF5682;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    clip-path: 0 0,100% 0, 100% 95%, 0% 100%;
+    justify-content: center;
+}
+#appoint  .apppoint-left h1 {
+    font-size : 5em;
+    margin: 20px 0;
+}
+
+#appoint .apppoint-left .btn1{
+    border: 1px solid #fff;
+    width: 250px;
+    padding: 15px;
+    color:#fff;
+    font-size: 1.3em;
+}
+#about .about-left{
+    position: relative;
+    background: #FF5682;
+    padding-right: 25px ;
+}
+#about .about-left img{
+    vertical-align: middle;
+}
+
+#about .about-left .about-right h1{
+    font-size: 3em;
+    color:darkblue;
+}
+/* header */
+#appoint .appoint-left {
+    padding: 0px, 30px;
+    background: #FF5682;
+    height: 100vh;
+    justify-content: center;
+    clip-path: polygon(1% 0, 100% 0, 100% 90%, 0% 100%);
+    flex-direction: column;
+    color: #fff;
+
+}
+ #appoint .appoint-left h1 {
+     font-size: 5em;
+     margin:20px 0px
+ }
+ #appoint .appoint-left span {
+     font-size: 1.5em;
+     
+ }
+ #appoint .appoint-left .btn1{
+     border: 1px solid rgb(255, 255, 255);
+     width: 250px;
+     padding: 15px;
+     font-size: 1.3em;
+     text-decoration: none;
+     color: #fff;
+
+ }
+  #about .about-left{
+      position: relative;
+      background: #FF5682;
+      padding-right: 0px;
+      padding-left:25px ;
+  }
+   #about .about-left .about-ps-img {
+       position: absolute;
+       bottom:0px;
+       left: 0;
+   }
+   #about .about-right h1 {
+       font-size: 3em;
+       color: blue;
+   }
+   #about .about-right p {
+       margin: 30px;
+       padding: 20px;
+       font-weight: 100;
+   }
+   #about .about-right a {
+      width: 30px;
+      color: #fff;
+       background: blue;
+       text-decoration:none ;
+       font-size: 15px;
+       padding: 20px  30px ;
+       transition:3s;
+       
+   }
+   #about .about-right a:hover {
+       width: 100%;
+       background: #FF5682;
+   }
